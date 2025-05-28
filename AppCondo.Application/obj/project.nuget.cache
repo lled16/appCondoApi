@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BdGlrCcYeD0=",
+  "success": true,
+  "projectFilePath": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\AppCondo.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitor\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
