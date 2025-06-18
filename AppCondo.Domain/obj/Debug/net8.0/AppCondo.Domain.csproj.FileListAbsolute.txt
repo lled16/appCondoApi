@@ -11,3 +11,16 @@ E:\Projetos\AppCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.dll
 E:\Projetos\AppCondoApi\AppCondo.Domain\obj\Debug\net8.0\refint\AppCondo.Domain.dll
 E:\Projetos\AppCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.pdb
 E:\Projetos\AppCondoApi\AppCondo.Domain\obj\Debug\net8.0\ref\AppCondo.Domain.dll
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\bin\Debug\net8.0\AppCondo.Domain.deps.json
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\bin\Debug\net8.0\AppCondo.Domain.dll
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\bin\Debug\net8.0\AppCondo.Domain.pdb
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.csproj.AssemblyReference.cache
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.AssemblyInfoInputs.cache
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.AssemblyInfo.cs
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.sourcelink.json
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.dll
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\refint\AppCondo.Domain.dll
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\AppCondo.Domain.pdb
+C:\Users\vitor\OneDrive\Documentos\Projetos\appCondoApi\AppCondo.Domain\obj\Debug\net8.0\ref\AppCondo.Domain.dll

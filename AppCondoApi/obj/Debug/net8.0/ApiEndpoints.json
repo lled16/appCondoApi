@@ -30,5 +30,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCondoApi.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "v1/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
