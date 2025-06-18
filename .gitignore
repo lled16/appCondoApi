@@ -11,3 +11,5 @@
 /AppCondoApi/appsettings.json
 /.vs/AppCondoApi/v17/.suo
 /.vs/
+/AppCondoApi/appsettings.json
+/AppCondoApi/Dockerfile
