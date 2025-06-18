@@ -22,7 +22,6 @@ namespace AppCondo.Application.Services.PorteiroService
         {
 
             return await _doormanRepository.GetById(id);
-
         }
         public async Task<DoormanModel> RegisterDoorman(DoormanDTO porteiroDTO)
         {

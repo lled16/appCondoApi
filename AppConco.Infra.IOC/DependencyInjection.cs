@@ -19,11 +19,9 @@ namespace AppConco.Infra.IOC
                 options.UseSqlServer(configuration.GetConnectionString("ConnectionString"), b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
             });
 
-
             services.AddScoped<IDoormanRepository, DoormanRepository>();
             services.AddScoped<IDoormanMap, DoormanMap>();
             services.AddScoped<IDoormanService, DoormanService>();
-
 
             return services;
         }
