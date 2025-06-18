@@ -26,7 +26,6 @@ namespace AppCondo.Data.Repositories
                 _context.SaveChanges();
 
                 return _context.Doorman.Where(x => x.Id == porteiro.Id).FirstOrDefault();
-
             }
             catch (Exception ex)
             {
