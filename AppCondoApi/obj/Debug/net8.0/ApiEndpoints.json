@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "AppCondoApi.Controllers.DoormanController",
+    "Method": "GetDoorman",
+    "RelativePath": "dorman/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCondoApi.Controllers.DoormanController",
+    "Method": "RegisterDoorman",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "porteiro",
+        "Type": "AppCondo.Application.DTO.DoormanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

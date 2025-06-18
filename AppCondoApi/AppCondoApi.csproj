@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppCondo.Application\AppCondo.Application.csproj" />
+    <ProjectReference Include="..\AppCondo.Data\AppCondo.Data.csproj" />
   </ItemGroup>
 
 </Project>

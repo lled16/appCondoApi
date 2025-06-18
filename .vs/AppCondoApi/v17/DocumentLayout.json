@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "E:\\Projetos\\AppCondoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\services\\porteiroservice\\porteiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\services\\porteiroservice\\porteiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|e:\\projetos\\appcondoapi\\appcondo.domain\\basehandler\\basehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|solutionrelative:appcondo.domain\\basehandler\\basehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|e:\\projetos\\appcondoapi\\appcondoapi\\controllers\\porteirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|solutionrelative:appcondoapi\\controllers\\porteirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|e:\\projetos\\appcondoapi\\appcondo.domain\\porteiro\\porteiromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|solutionrelative:appcondo.domain\\porteiro\\porteiromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\interfaces\\iporteiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\interfaces\\iporteiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\dto\\porteirodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\dto\\porteirodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projetos\\AppCondoApi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseHandler.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\BaseHandler\\BaseHandler.cs",
-              "RelativeDocumentMoniker": "AppCondo.Domain\\BaseHandler\\BaseHandler.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\BaseHandler\\BaseHandler.cs",
-              "RelativeToolTip": "AppCondo.Domain\\BaseHandler\\BaseHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:44:11.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPorteiroService.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IPorteiroService.cs",
-              "RelativeDocumentMoniker": "AppCondo.Application\\Interfaces\\IPorteiroService.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IPorteiroService.cs",
-              "RelativeToolTip": "AppCondo.Application\\Interfaces\\IPorteiroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:33:43.999Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PorteiroService.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\PorteiroService.cs",
-              "RelativeDocumentMoniker": "AppCondo.Application\\Services\\PorteiroService\\PorteiroService.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\PorteiroService.cs",
-              "RelativeToolTip": "AppCondo.Application\\Services\\PorteiroService\\PorteiroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:32:11.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PorteiroController.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Controllers\\PorteiroController.cs",
-              "RelativeDocumentMoniker": "AppCondoApi\\Controllers\\PorteiroController.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Controllers\\PorteiroController.cs",
-              "RelativeToolTip": "AppCondoApi\\Controllers\\PorteiroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:28:04.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PorteiroDTO.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\DTO\\PorteiroDTO.cs",
-              "RelativeDocumentMoniker": "AppCondo.Application\\DTO\\PorteiroDTO.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\DTO\\PorteiroDTO.cs",
-              "RelativeToolTip": "AppCondo.Application\\DTO\\PorteiroDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:22:20.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PorteiroModel.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\Porteiro\\PorteiroModel.cs",
-              "RelativeDocumentMoniker": "AppCondo.Domain\\Porteiro\\PorteiroModel.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\Porteiro\\PorteiroModel.cs",
-              "RelativeToolTip": "AppCondo.Domain\\Porteiro\\PorteiroModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:19:56.312Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-18T04:50:18.375Z",
               "EditorCaption": ""
             }
           ]

@@ -1,15 +1,30 @@
+using AppCondo.Application.Interfaces;
+using AppCondo.Application.Mappings.Doorman;
+using AppCondo.Application.Services.PorteiroService;
+using AppCondo.Data.Context;
+using AppCondo.Data.Repositories;
+using AppCondo.Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sqlOptions => sqlOptions.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)
+    ));
+
+
+builder.Services.AddScoped<IDoormanRepository, DoormanRepository>();
+builder.Services.AddScoped<IDoormanMap, DoormanMap>();
+builder.Services.AddScoped<IDoormanService, DoormanService>();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "sFq4XoMuj3u8C6XwJm1z70JKQtOxL9Q/DUo3N3cXZyQ=",
+  "Source": "AppCondoApi",
+  "BasePath": "_content/AppCondoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
