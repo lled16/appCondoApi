@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "E:\\Projetos\\AppCondoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\mappings\\doorman\\doormanmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\mappings\\doorman\\doormanmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\services\\porteiroservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\services\\porteiroservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\dto\\doormandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\dto\\doormandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|e:\\projetos\\appcondoapi\\appcondo.domain\\emailmodels\\doormanmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|solutionrelative:appcondo.domain\\emailmodels\\doormanmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\interfaces\\imailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\interfaces\\imailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|e:\\projetos\\appcondoapi\\appcondoapi\\controllers\\doormancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|solutionrelative:appcondoapi\\controllers\\doormancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|e:\\projetos\\appcondoapi\\appcondo.domain\\porteiro\\doormanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|solutionrelative:appcondo.domain\\porteiro\\doormanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\services\\porteiroservice\\doormanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\services\\porteiroservice\\doormanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}|AppCondo.Data\\AppCondo.Data.csproj|e:\\projetos\\appcondoapi\\appcondo.data\\repositories\\doormanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}|AppCondo.Data\\AppCondo.Data.csproj|solutionrelative:appcondo.data\\repositories\\doormanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\interfaces\\idoormanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\interfaces\\idoormanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|e:\\projetos\\appcondoapi\\appcondo.domain\\interfaces\\idoormanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|solutionrelative:appcondo.domain\\interfaces\\idoormanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|e:\\projetos\\appcondoapi\\appcondoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|solutionrelative:appcondoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|e:\\projetos\\appcondoapi\\appcondoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|solutionrelative:appcondoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}|AppCondo.Data\\AppCondo.Data.csproj|e:\\projetos\\appcondoapi\\appcondo.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}|AppCondo.Data\\AppCondo.Data.csproj|solutionrelative:appcondo.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D1A12C-A613-4162-A40F-EF7B7218E0FD}|AppConco.Infra.IOC\\AppConco.Infra.IOC.csproj|e:\\projetos\\appcondoapi\\appconco.infra.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7D1A12C-A613-4162-A40F-EF7B7218E0FD}|AppConco.Infra.IOC\\AppConco.Infra.IOC.csproj|solutionrelative:appconco.infra.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,161 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DoormanModel.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\Porteiro\\DoormanModel.cs",
-              "RelativeDocumentMoniker": "AppCondo.Domain\\Porteiro\\DoormanModel.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\Porteiro\\DoormanModel.cs",
-              "RelativeToolTip": "AppCondo.Domain\\Porteiro\\DoormanModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T04:40:59.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IDoormanRepository.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\Interfaces\\IDoormanRepository.cs",
-              "RelativeDocumentMoniker": "AppCondo.Domain\\Interfaces\\IDoormanRepository.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\Interfaces\\IDoormanRepository.cs",
-              "RelativeToolTip": "AppCondo.Domain\\Interfaces\\IDoormanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T04:34:58.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Program.cs",
-              "RelativeDocumentMoniker": "AppCondoApi\\Program.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Program.cs",
-              "RelativeToolTip": "AppCondoApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T04:03:30.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppConco.Infra.IOC\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "AppConco.Infra.IOC\\DependencyInjection.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppConco.Infra.IOC\\DependencyInjection.cs",
-              "RelativeToolTip": "AppConco.Infra.IOC\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:55:08.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AppCondo.Data\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "AppCondo.Data\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:54:59.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\appsettings.json",
-              "RelativeDocumentMoniker": "AppCondoApi\\appsettings.json",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\appsettings.json",
-              "RelativeToolTip": "AppCondoApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T03:54:50.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDoormanService.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IDoormanService.cs",
-              "RelativeDocumentMoniker": "AppCondo.Application\\Interfaces\\IDoormanService.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IDoormanService.cs",
-              "RelativeToolTip": "AppCondo.Application\\Interfaces\\IDoormanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:52:28.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DoormanMap.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Mappings\\Doorman\\DoormanMap.cs",
-              "RelativeDocumentMoniker": "AppCondo.Application\\Mappings\\Doorman\\DoormanMap.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Mappings\\Doorman\\DoormanMap.cs",
-              "RelativeToolTip": "AppCondo.Application\\Mappings\\Doorman\\DoormanMap.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAvwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:31:06.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DoormanRepository.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\Repositories\\DoormanRepository.cs",
-              "RelativeDocumentMoniker": "AppCondo.Data\\Repositories\\DoormanRepository.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\Repositories\\DoormanRepository.cs",
-              "RelativeToolTip": "AppCondo.Data\\Repositories\\DoormanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:23:07.095Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DoormanDTO.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\DTO\\DoormanDTO.cs",
-              "RelativeDocumentMoniker": "AppCondo.Application\\DTO\\DoormanDTO.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\DTO\\DoormanDTO.cs",
-              "RelativeToolTip": "AppCondo.Application\\DTO\\DoormanDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAFAAAAAAAAAA==",
+              "Title": "DoormanMails.cs",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "RelativeDocumentMoniker": "AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "RelativeToolTip": "AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:21:26.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DoormanService.cs",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\DoormanService.cs",
-              "RelativeDocumentMoniker": "AppCondo.Application\\Services\\PorteiroService\\DoormanService.cs",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\DoormanService.cs",
-              "RelativeToolTip": "AppCondo.Application\\Services\\PorteiroService\\DoormanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:32:11.168Z",
+              "WhenOpened": "2025-07-30T03:59:56.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IMailSender.cs",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "RelativeDocumentMoniker": "AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "RelativeToolTip": "AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T03:45:14.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "RelativeDocumentMoniker": "AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "RelativeToolTip": "AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T03:40:41.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DoormanController.cs",
               "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Controllers\\DoormanController.cs",
               "RelativeDocumentMoniker": "AppCondoApi\\Controllers\\DoormanController.cs",
               "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Controllers\\DoormanController.cs",
               "RelativeToolTip": "AppCondoApi\\Controllers\\DoormanController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCAAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:28:04.585Z",
+              "WhenOpened": "2025-07-30T03:39:15.486Z",
               "EditorCaption": ""
             }
           ]

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\Projetos\\AppCondoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projetos\\AppCondoApi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\services\\porteiroservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\services\\porteiroservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|e:\\projetos\\appcondoapi\\appcondo.domain\\emailmodels\\doormanmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}|AppCondo.Domain\\AppCondo.Domain.csproj|solutionrelative:appcondo.domain\\emailmodels\\doormanmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|e:\\projetos\\appcondoapi\\appcondo.application\\interfaces\\imailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}|AppCondo.Application\\AppCondo.Application.csproj|solutionrelative:appcondo.application\\interfaces\\imailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|e:\\projetos\\appcondoapi\\appcondoapi\\controllers\\doormancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}|AppCondoApi\\AppCondoApi.csproj|solutionrelative:appcondoapi\\controllers\\doormancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +34,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoormanMails.cs",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "RelativeDocumentMoniker": "AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "RelativeToolTip": "AppCondo.Domain\\EmailModels\\DoormanMails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T03:59:56.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMailSender.cs",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "RelativeDocumentMoniker": "AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "RelativeToolTip": "AppCondo.Application\\Interfaces\\IMailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T03:45:14.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "E:\\Projetos\\AppCondoApi\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-18T04:50:18.375Z",
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "RelativeDocumentMoniker": "AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "RelativeToolTip": "AppCondo.Application\\Services\\PorteiroService\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T03:40:41.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoormanController.cs",
+              "DocumentMoniker": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Controllers\\DoormanController.cs",
+              "RelativeDocumentMoniker": "AppCondoApi\\Controllers\\DoormanController.cs",
+              "ToolTip": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\Controllers\\DoormanController.cs",
+              "RelativeToolTip": "AppCondoApi\\Controllers\\DoormanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T03:39:15.486Z",
               "EditorCaption": ""
             }
           ]

@@ -88,3 +88,8 @@ E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Sys
 E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\AppCondo.Data.dll
 E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\AppCondo.Data.pdb
+E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\MailKit.dll
+E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\MimeKit.dll
+E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\Projetos\AppCondoApi\AppCondoApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

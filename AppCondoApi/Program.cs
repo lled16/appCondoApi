@@ -23,6 +23,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<IDoormanRepository, DoormanRepository>();
 builder.Services.AddScoped<IDoormanMap, DoormanMap>();
 builder.Services.AddScoped<IDoormanService, DoormanService>();
+builder.Services.AddScoped<IMailSender, EmailService>();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
