@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppCondo.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce695ac263b798d4d58c79efee64156b4e92ea6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef0bb35b26bd9d961439eeb35923c9e47addb879")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppCondo.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppCondo.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
