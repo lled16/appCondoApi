@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondoApi\\AppCondoApi.csproj": {}
+    "E:\\Projetos\\AppCondoApi\\AppCondoApi\\AppCondoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Application\\AppCondo.Application.csproj": {
+    "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\AppCondo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Application\\AppCondo.Application.csproj",
+        "projectUniqueName": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\AppCondo.Application.csproj",
         "projectName": "AppCondo.Application",
-        "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Application\\AppCondo.Application.csproj",
+        "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\AppCondo.Application.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Application\\obj\\",
+        "outputPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/bmgmoney/_packaging/bmgmoney/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj": {
-                "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj"
+              "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj": {
+                "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj"
               }
             }
           }
@@ -84,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Data\\AppCondo.Data.csproj": {
+    "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\AppCondo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Data\\AppCondo.Data.csproj",
+        "projectUniqueName": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\AppCondo.Data.csproj",
         "projectName": "AppCondo.Data",
-        "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Data\\AppCondo.Data.csproj",
+        "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\AppCondo.Data.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Data\\obj\\",
+        "outputPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,15 +109,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/bmgmoney/_packaging/bmgmoney/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj": {
-                "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj"
+              "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj": {
+                "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj"
               }
             }
           }
@@ -164,18 +162,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj": {
+    "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj",
+        "projectUniqueName": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj",
         "projectName": "AppCondo.Domain",
-        "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj",
+        "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\AppCondo.Domain.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Domain\\obj\\",
+        "outputPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,8 +188,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/bmgmoney/_packaging/bmgmoney/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -240,18 +237,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondoApi\\AppCondoApi.csproj": {
+    "E:\\Projetos\\AppCondoApi\\AppCondoApi\\AppCondoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondoApi\\AppCondoApi.csproj",
+        "projectUniqueName": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\AppCondoApi.csproj",
         "projectName": "AppCondoApi",
-        "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondoApi\\AppCondoApi.csproj",
+        "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\AppCondoApi.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondoApi\\obj\\",
+        "outputPath": "E:\\Projetos\\AppCondoApi\\AppCondoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -266,18 +263,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/bmgmoney/_packaging/bmgmoney/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Application\\AppCondo.Application.csproj": {
-                "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Application\\AppCondo.Application.csproj"
+              "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\AppCondo.Application.csproj": {
+                "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Application\\AppCondo.Application.csproj"
               },
-              "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Data\\AppCondo.Data.csproj": {
-                "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Projetos\\appCondoApi\\AppCondo.Data\\AppCondo.Data.csproj"
+              "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\AppCondo.Data.csproj": {
+                "projectPath": "E:\\Projetos\\AppCondoApi\\AppCondo.Data\\AppCondo.Data.csproj"
               }
             }
           }
@@ -330,7 +326,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
