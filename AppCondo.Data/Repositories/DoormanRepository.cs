@@ -1,7 +1,6 @@
 ﻿using AppCondo.Data.Context;
-using AppCondo.Domain.BaseHandler;
+using AppCondo.Domain.Doorman;
 using AppCondo.Domain.Interfaces;
-using AppCondo.Domain.Porteiro;
 
 namespace AppCondo.Data.Repositories
 {
@@ -13,11 +12,11 @@ namespace AppCondo.Data.Repositories
         {
             _context = context;
         }
-        public async Task<DoormanModel> GetById(int id)
+        public async Task<Doorman> GetById(int id)
         {
             return _context.Doorman.Where(x => x.Id == id).FirstOrDefault();
         }
-        public async Task<DoormanModel> Create(DoormanModel porteiro)
+        public async Task<Doorman> Create(Doorman porteiro)
         {
             try
             {
@@ -26,6 +25,42 @@ namespace AppCondo.Data.Repositories
                 _context.SaveChanges();
 
                 return _context.Doorman.Where(x => x.Id == porteiro.Id).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public async Task<bool> ActiveDoormanRegister(int id, string registrationId)
+        {
+            try
+            {
+                var doorman = await GetDoormanByIdAndRegistrationId(id, registrationId);
+
+                if (doorman is not Doorman)
+                    return false;
+
+                var entity = _context.Doorman.Where(x => x.Id == id).FirstOrDefault();
+
+                entity.Status = true;
+
+                _context.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
+        }
+
+        public async Task<Doorman> GetDoormanByIdAndRegistrationId(int id, string registrationId)
+        {
+            try
+            {
+                return _context.Doorman.Where(x => x.Id == id && x.RegistrationId == registrationId).SingleOrDefault();
             }
             catch (Exception ex)
             {

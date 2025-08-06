@@ -6,9 +6,6 @@ namespace AppCondo.Data.Repositories
 {
     public class LoginRepository(ApplicationDbContext context) : ILoginRepository
     {
-        public async Task<User> Get(string userName, string password)
-        {
-            return context.Users.Where(x => x.Nome == userName).FirstOrDefault();
-        }
+        public async Task<User> Get(string userName, string password) => context.Users.Where(x => x.Nome == userName).FirstOrDefault();
     }
 }

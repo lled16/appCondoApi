@@ -1,6 +1,6 @@
 ﻿using AppCondo.Application.DTO;
 using AppCondo.Application.Interfaces;
-using AppCondo.Domain.Porteiro;
+using AppCondo.Domain.Doorman;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppCondoApi.Controllers
@@ -18,6 +18,8 @@ namespace AppCondoApi.Controllers
             _logger = logger;
         }
 
+        [ProducesResponseType(statusCode: StatusCodes.Status200OK)]
+        [ProducesResponseType(statusCode: StatusCodes.Status204NoContent)]
         [HttpGet("/dorman/id")]
         public async Task<IActionResult> GetDoorman([FromQuery] int id)
         {
@@ -25,10 +27,12 @@ namespace AppCondoApi.Controllers
 
             if (result is null)
                 return NoContent();
-            
+
             return Ok(result);
         }
 
+        [ProducesResponseType(statusCode:StatusCodes.Status200OK)]
+        [ProducesResponseType(statusCode:StatusCodes.Status400BadRequest)]
         [HttpPost("/register")]
         public async Task<IActionResult> RegisterDoorman([FromBody] DoormanDTO porteiro)
         {
@@ -42,10 +46,8 @@ namespace AppCondoApi.Controllers
 
                 var doorman = await _doormanService.RegisterDoorman(porteiro);
 
-                if(doorman is not DoormanModel)
-                {
+                if (doorman is not Doorman)
                     return BadRequest("Não foi possível cadastrar o porteiro");
-                }
 
                 return Ok(doorman);
             }
@@ -53,6 +55,19 @@ namespace AppCondoApi.Controllers
             {
                 _logger.LogError("Não foi possível realizar o cadastro - LOG :" + ex.Message);
                 return BadRequest("Não foi possível realizar o cadastro");
+            }
+        }
+        [HttpPut("/active")]
+        public async Task<IActionResult> ActiveRegister([FromQuery] int id, [FromQuery] string registrationId)
+        {
+            try
+            {
+                var active = await _doormanService.ActiveDoormanRegister(id, registrationId);
+
+                if (active)
+                    return Ok();
+
+                return BadRequest("Erro ao ativar usuário");
             }
         }
 

@@ -1,5 +1,6 @@
 using AppCondo.Application.Interfaces;
 using AppCondo.Application.Mappings.Doorman;
+using AppCondo.Application.Services.Email;
 using AppCondo.Application.Services.PorteiroService;
 using AppCondo.Data.Context;
 using AppCondo.Data.Repositories;

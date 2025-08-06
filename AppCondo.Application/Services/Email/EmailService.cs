@@ -2,10 +2,9 @@
 using System.Net;
 using System.Text;
 using AppCondo.Application.Interfaces;
-using AppCondo.Domain.Porteiro;
 using AppCondo.Domain.EmailModels;
 
-namespace AppCondo.Application.Services.PorteiroService
+namespace AppCondo.Application.Services.Email
 {
     public class EmailService : IMailSender
     {
@@ -29,7 +28,6 @@ namespace AppCondo.Application.Services.PorteiroService
 
             client.Send(mailMessage);
         }
-
 
         public SmtpClient CreateClient()
         {

@@ -1,11 +1,4 @@
-﻿using AppCondo.Domain.Porteiro;
-using FluentValidation.Results;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation.Results;
 
 namespace AppCondo.Domain.BaseHandler
 {

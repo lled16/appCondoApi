@@ -1,15 +1,12 @@
-﻿using AppCondo.Domain.Porteiro;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AppCondo.Domain.Doorman;
 
 namespace AppCondo.Domain.Interfaces
 {
     public interface IDoormanRepository
     {
-        Task<DoormanModel> GetById(int id);
-        Task<DoormanModel> Create(DoormanModel porteiro);
+        Task<Doorman.Doorman> GetById(int id);
+        Task<Doorman.Doorman> Create(Doorman.Doorman porteiro);
+        Task<bool> ActiveDoormanRegister(int id, string registrationId);
+        Task<Doorman.Doorman> GetDoormanByIdAndRegistrationId(int id, string registrationId);
     }
 }

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AppCondoApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52389;http://localhost:52390"
+    }
+  }
+}

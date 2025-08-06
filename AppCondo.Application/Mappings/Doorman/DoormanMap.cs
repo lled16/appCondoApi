@@ -1,41 +1,38 @@
 ﻿using AppCondo.Application.DTO;
-using AppCondo.Domain.Porteiro;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppCondo.Application.Mappings.Doorman
 {
     public interface IDoormanMap
     {
-        DoormanModel DoormanToModel(DoormanDTO doormanDTO);
-        DoormanDTO DoormanToDTO(DoormanModel doormanModel);
+        Domain.Doorman.Doorman DoormanToModel(DoormanDTO doormanDTO);
+        DoormanDTO DoormanToDTO(Domain.Doorman.Doorman doormanModel);
     }
     public class DoormanMap : IDoormanMap
     {
-        public DoormanModel DoormanToModel(DoormanDTO doormanDTO)
+        public Domain.Doorman.Doorman DoormanToModel(DoormanDTO doormanDTO)
         {
-            return new DoormanModel()
+            return new Domain.Doorman.Doorman()
             {
-                PrimeiroNome = doormanDTO.PrimeiroNome,
-                UltimoNome = doormanDTO.UltimoNome,
+                Id = doormanDTO.Id,
+                PrimeiroNome = doormanDTO.FirstName,
+                UltimoNome = doormanDTO.LastName,
                 Cpf = doormanDTO.Cpf,
-                ImagemDoc = doormanDTO.ImagemDoc,
-                Status = doormanDTO.Status
+                ImagemDoc = doormanDTO.ImageDoc,
+                Status = doormanDTO.Status,
+                Password = doormanDTO.Password
             };
         }
 
-        public DoormanDTO DoormanToDTO(DoormanModel doormanModel)
+        public DoormanDTO DoormanToDTO(Domain.Doorman.Doorman doormanModel)
         {
             return new DoormanDTO()
             {
-                PrimeiroNome = doormanModel.PrimeiroNome,
-                UltimoNome = doormanModel.UltimoNome,
+                FirstName = doormanModel.PrimeiroNome,
+                LastName = doormanModel.UltimoNome,
                 Cpf = doormanModel.Cpf,
-                ImagemDoc = doormanModel.ImagemDoc,
-                Status = doormanModel.Status
+                ImageDoc = doormanModel.ImagemDoc,
+                Status = doormanModel.Status,
+                Password = doormanModel.Password
             };
         }
     }

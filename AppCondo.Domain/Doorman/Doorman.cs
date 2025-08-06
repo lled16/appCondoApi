@@ -1,22 +1,27 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AppCondo.Domain.Porteiro
+namespace AppCondo.Domain.Doorman
 {
-    public class DoormanModel
+    public class Doorman
     {
         [Key]
-        public int Id;
+        [NotMapped]
+        public int? Id;
         public string PrimeiroNome;
         public string UltimoNome;
         public string Cpf;
         public string ImagemDoc;
         public bool Status;
+        public string Password;
         [NotMapped]
         public string RegistrationId;
 
+        public Doorman()
+        {
+        }
 
-        public DoormanModel(int id, string primeiroNome, string ultimoNome, string cpf, string imagemDoc, bool status, string registrationId)
+        public Doorman(int? id, string primeiroNome, string ultimoNome, string cpf, string imagemDoc, bool status, string registrationId, string password)
         {
             Id = id;
             PrimeiroNome = primeiroNome;
@@ -24,10 +29,11 @@ namespace AppCondo.Domain.Porteiro
             Cpf = cpf;
             ImagemDoc = imagemDoc;
             Status = status;
-            RegistrationId = GenerateID();
+            RegistrationId = GenerateId();
+            Password = password;
         }
 
-        private string GenerateID()
+        private static string GenerateId()
         {
             Random r = new Random();
             int randNum = r.Next(1000000);
