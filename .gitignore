@@ -1,4 +1,17 @@
-﻿# Created by https://www.toptal.com/developers/gitignore/api/windows,csharp,dotnetcore
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+.vs
+/.vs
+.vs/
+/.vs/
+../.vs
+../vs
+/AppCondoApi/Properties/launchSettings.json
+/AppCondoApi/appsettings.json
+/.vs/AppCondoApi/v17/.suo
+/.vs/
+# Created by https://www.toptal.com/developers/gitignore/api/windows,csharp,dotnetcore
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,csharp,dotnetcore
 
 ### Csharp ###

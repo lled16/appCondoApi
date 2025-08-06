@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppCondoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66ffc6ef977df050ce3e7b5c4e3ac5f0e97662ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdfe9b095189558c576aeb305ae22dd0b68b4e88")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppCondoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppCondoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

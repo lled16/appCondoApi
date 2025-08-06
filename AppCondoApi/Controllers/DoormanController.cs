@@ -1,14 +1,12 @@
 ﻿using AppCondo.Application.DTO;
 using AppCondo.Application.Interfaces;
 using AppCondo.Domain.Porteiro;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppCondoApi.Controllers
 {
     [ApiController]
     [Route("v1/[controller]")]
-    [Authorize]
     public class DoormanController : ControllerBase
     {
         private readonly IDoormanService _doormanService;

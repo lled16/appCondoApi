@@ -4,6 +4,7 @@ using AppCondo.Application.Mappings.Doorman;
 using AppCondo.Domain.Interfaces;
 using AppCondo.Domain.Porteiro;
 using FluentValidation.Results;
+using System.Reflection.Emit;
 
 namespace AppCondo.Application.Services.PorteiroService
 {
@@ -11,11 +12,12 @@ namespace AppCondo.Application.Services.PorteiroService
     {
         private readonly IDoormanRepository _doormanRepository;
         private readonly IDoormanMap _doormanMap;
-
-        public DoormanService(IDoormanRepository doormanRepository, IDoormanMap doormanMap)
+        private readonly IMailSender _mailSender;
+        public DoormanService(IDoormanRepository doormanRepository, IDoormanMap doormanMap, IMailSender mailSender)
         {
             _doormanRepository = doormanRepository;
             _doormanMap = doormanMap;
+            _mailSender = mailSender;
         }
 
         public async Task<DoormanModel> GetById(int id)
@@ -25,13 +27,12 @@ namespace AppCondo.Application.Services.PorteiroService
         }
         public async Task<DoormanModel> RegisterDoorman(DoormanDTO porteiroDTO)
         {
-            DoormanValidator validation = new();
-            ValidationResult result = validation.Validate(porteiroDTO);
+            ValidationResult result = new DoormanValidator().Validate(porteiroDTO);
             DoormanModel doorman = _doormanMap.DoormanToModel(porteiroDTO);
 
             try
             {
-                if (result.IsValid is false)
+                if (!result.IsValid)
                 {
                     string messageError = string.Empty;
 
@@ -40,8 +41,10 @@ namespace AppCondo.Application.Services.PorteiroService
 
                     throw new Exception(messageError);
                 }
-
+  
                 var insert = await _doormanRepository.Create(doorman);
+
+                _mailSender.SendEmailRegistrationDoorman("email", "subject", doorman.RegistrationId, doorman.PrimeiroNome);
 
                 return insert;
 
@@ -50,7 +53,8 @@ namespace AppCondo.Application.Services.PorteiroService
             {
                 throw;
             }
-
         }
+
+
     }
 }

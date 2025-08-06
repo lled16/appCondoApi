@@ -57,34 +57,6 @@
           }
         }
       }
-    },
-    "/v1/Login/login": {
-      "post": {
-        "tags": [
-          "Login"
-        ],
-        "parameters": [
-          {
-            "name": "login",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "password",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   },
   "components": {

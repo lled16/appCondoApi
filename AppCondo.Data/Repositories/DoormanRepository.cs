@@ -1,4 +1,5 @@
 ﻿using AppCondo.Data.Context;
+using AppCondo.Domain.BaseHandler;
 using AppCondo.Domain.Interfaces;
 using AppCondo.Domain.Porteiro;
 
