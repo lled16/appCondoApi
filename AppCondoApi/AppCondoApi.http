@@ -1,0 +1,6 @@
+@AppCondoApi_HostAddress = http://localhost:5019
+
+GET {{AppCondoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

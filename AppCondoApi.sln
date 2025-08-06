@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCondoApi", "AppCondoApi\AppCondoApi.csproj", "{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CCE223FA-87EE-4490-9CCF-2503DD5D7B04} = {CCE223FA-87EE-4490-9CCF-2503DD5D7B04}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCondo.Domain", "AppCondo.Domain\AppCondo.Domain.csproj", "{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCondo.Application", "AppCondo.Application\AppCondo.Application.csproj", "{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54588939-0B49-4AF1-8A84-8C4BD4D15EC3} = {54588939-0B49-4AF1-8A84-8C4BD4D15EC3}
+		{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8} = {D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCondo.Data", "AppCondo.Data\AppCondo.Data.csproj", "{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConco.Infra.IOC", "AppConco.Infra.IOC\AppConco.Infra.IOC.csproj", "{F7D1A12C-A613-4162-A40F-EF7B7218E0FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52BEAB49-492C-4DD4-8D8F-2F9285B1484C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{32EE62A7-A31D-484C-9E36-FD193BE4F9F3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4ED7F3-A9BC-4D8A-BFBD-38EF77120145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54588939-0B49-4AF1-8A84-8C4BD4D15EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE223FA-87EE-4490-9CCF-2503DD5D7B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56F44FF-7B15-4CE8-A9E4-27F8A58B0BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D1A12C-A613-4162-A40F-EF7B7218E0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D1A12C-A613-4162-A40F-EF7B7218E0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D1A12C-A613-4162-A40F-EF7B7218E0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D1A12C-A613-4162-A40F-EF7B7218E0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
